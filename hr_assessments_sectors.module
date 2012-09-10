@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse Assessments Sectors feature.
+ */
+
+include_once 'hr_assessments_sectors.features.inc';

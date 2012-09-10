@@ -1,0 +1,12 @@
+name = Humanitarianresponse Assessments Sectors
+description = Rename clusters to Sectors in Assessments
+core = 7.x
+package = HR Sector
+dependencies[] = hr_sectors
+dependencies[] = humanitarianresponse_assessments
+features[features_api][] = api:1
+features[features_override_items][] = field.node-assessment-field_clusters
+features[features_override_items][] = views_view.assessment_registry
+features[features_overrides][] = field.node-assessment-field_clusters.field_instance|label
+features[features_overrides][] = views_view.assessment_registry.display|default|display_options|fields|field_clusters|label
+features[features_overrides][] = views_view.assessment_registry.display|default|display_options|filters|field_clusters_tid|expose|label
