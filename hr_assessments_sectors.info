@@ -1,7 +1,7 @@
 name = Humanitarianresponse Assessments Sectors
 description = Rename clusters to Sectors in Assessments
 core = 7.x
-package = HR Sector
+package = HR Sectors
 dependencies[] = hr_sectors
 dependencies[] = humanitarianresponse_assessments
 features[features_api][] = api:1
